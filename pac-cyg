@@ -30,8 +30,11 @@ _arch=
 _tmpdir=
 
 # newline separated mirrorlist
+# Altered the mirror to a West Coast, United States based mirror for faster 
+# downloads for people located in Cali, Oregon, Washington, etc
+
 _mirrorlist_default="# <name> <url>
-main http://mirrors.kernel.org/sourceware/cygwin"
+main http://mirrors.syringanetworks.net/cygwin/"
 
 _installed_db=$_setupdir/installed.db
 
